@@ -1,0 +1,25 @@
+ul {
+    list-style: none;
+    width: 1000px;
+    height: 700px;
+}
+
+.day {
+    display: inline-table;
+    width: calc(100%/7);
+    height: calc(100%/6);
+    padding: 0px 10px;
+    background-color: #eeedff;
+    border: solid gainsboro 1px;
+    color: #b9b9b9;
+}
+
+.current {
+    color: #337da4;
+}
+
+.day-header {
+    color: #003b59;
+    font-style: italic;
+    font-size: 14px;
+}

@@ -1,0 +1,8 @@
+<h1>Project name</h1>
+<ul class="task-list">
+    <li *ngFor="let task of tasks" (click)="doneChange(task.id)">
+        <i class="fa fa-check" [class.done]="task.done"></i> {{ task.task }} {{ task.startDate }} {{ task.duration }}
+    </li>
+</ul>
+
+Add task:<input type="text" [(ngModel)]="newTask" id="newTask"><br> Start Date:<input type="text" bsDatepicker [(bsValue)]="startDate"><br> duration: <input type="text"> days

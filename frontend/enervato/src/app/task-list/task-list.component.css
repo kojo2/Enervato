@@ -1,0 +1,18 @@
+.task-list {
+    list-style-type: none;
+}
+
+.task-list li {
+    cursor: pointer;
+}
+
+i {
+    border-radius: 100%;
+    background-color: red;
+    padding: 10px;
+    margin: 20px;
+}
+
+.done {
+    background-color: green;
+}

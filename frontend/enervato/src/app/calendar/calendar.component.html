@@ -1,0 +1,8 @@
+<ul>
+    <li *ngFor="let date of dates" class="day" [class.current]="date.date.type=='current'">
+        <span class="day-header">{{ date.day }} {{date.date.date}}</span>
+        <div *ngFor="let task of date.tasks">
+            {{ task }}
+        </div>
+    </li>
+</ul>
